@@ -1,10 +1,9 @@
 CREATE TABLE login(
 	username varchar(20),
-    password varchar(16)
+    password varchar(255)
 );
-INSERT INTO login (username, password)
-VALUES
-("admin","maheen");
+SELECT * FROM login;
+
 
 CREATE TABLE add_contact (
 	id int primary key auto_increment,
